@@ -358,6 +358,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   min-height: 200px;
   margin: 0 auto 15px auto;
 }
+.skill-slider .item {
+  text-decoration: none;
+}
+.skill-slider .item h5{
+  color: #fff;
+  text-decoration: none;
+}
 .background-image-left {
   top: 28%;
   position: absolute;

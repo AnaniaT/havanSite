@@ -34,26 +34,31 @@ export const Skills = () => {
       title: "Havan Academy",
       imgSrc: hacademy,
       desc: "An online learning and tutoring center for all freshman students",
+      tHandle: "havanacademy",
     },
     {
       title: "Havan COC preparation center",
       imgSrc: hcoc,
       desc: "A platform where seniors at St. Paul & Black Lion Specialized Hospital assist their juniors",
+      tHandle: "havancoctutorialofficial",
     },
     {
       title: "Havan Collection",
       imgSrc: hshop,
       desc: "An online market for students",
+      tHandle: "havanbrand",
     },
     {
       title: "Havan Tube",
       imgSrc: htube,
       desc: "Educational and entertainment led YouTube channel",
+      tHandle: "havantube",
     },
     {
       title: "Havan Medicos",
       imgSrc: hmed,
       desc: "Program where information about health science in Ethiopia is discussed",
+      tHandle: "havanmedicos",
     },
   ]
 
@@ -66,13 +71,13 @@ export const Skills = () => {
                         <h2>Services</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                           {
-                            services.map((serv, index) => {
+                            services.map(({ title, imgSrc, desc, tHandle }, index) => {
                               return (
-                                <div className="item">
-                                    <img src={serv.imgSrc} alt="Image" />
-                                    <h5>{serv.title}</h5>
-                                    <p>{serv.desc}</p>
-                                </div>
+                                <a target="_blank" href={"https://t.me/" + tHandle } className="item">
+                                    <img src={imgSrc} alt="Image" />
+                                    <h5>{title}</h5>
+                                    <p>{desc}</p>
+                                </a>
                               )
                             })
                           }
