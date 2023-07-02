@@ -56,10 +56,17 @@ export const Banner = () => {
             <span className="tagline">Welcome to our site</span>
             <h1>{`We are`} <span className="txt-rotate" data-rotate='["HAVAN"]'><span className="wrap">{text}</span></span></h1>
               <p>
-              We are a group of senior medical students leading a non-religious, non-governmental, and non-political organization with an ambitious goal to enhance the lives of new university students in Ethiopia.
-              We aim to provide a range of services and programs, including mentorship, academic support, tutoring, career guidance, alumni advice, and relevant information to ensure quality education from the very beginning of university life.
-              
+              We are a group of senior Medical students who aim to enhance the lives of university students in Ethiopia. We strive to offer high-quality educational services, create a supportive environment, and inspire students to reach their full potential by providing  range of services and programs including  mentorship, academic support, tutoring, career guidance, alumni advice, and relevant information to ensure quality education from the very beginning of university life. 
 							</p>
+              <br/>
+              <h3>Mission</h3>
+              <p>
+              Through our various initiatives, we aim to equip students with the knowledge, skills, and confidence necessary to excel in their academic pursuits and future careers. 
+              </p>
+              <h3>Vision</h3>
+              <p>
+              By continuously innovating and expanding our services, we aim to become number-one destination for students looking for  comprehensive preparation, mentorship, and community engagement.
+              </p>
           </Col>
           <Col xs={12} md={6} xl={5} className="md-del-me">
 							<img src={contactImg} alt="Header Img"/>
