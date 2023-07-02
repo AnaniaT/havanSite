@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 import hobbyImg from "../assets/img/team/Hobby.png";
@@ -6,8 +6,7 @@ import periImg from "../assets/img/team/peri.png";
 import liduImg from "../assets/img/team/lidu.png";
 import demiseImg from "../assets/img/team/demise.png";
 import saliImg from "../assets/img/team/sali.png";
-// import zebibImg from "../assets/img/team/zebib.png";
-import projImg2 from "../assets/img/team/project-img2.png";
+import zebibImg from "../assets/img/team/zebib.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -42,7 +41,7 @@ export const Projects = () => {
     {
       title: "Zebiba",
       description: "Social Media Manager",
-      imgUrl: projImg2,
+      imgUrl: zebibImg,
     },
   ];
 
@@ -71,63 +70,3 @@ export const Projects = () => {
     </section>
   )
 }
-
-/*
-            <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                <Nav.Item>
-                  <Nav.Link eventKey="first">Admin</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="second">Marketing</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Staff</Nav.Link>
-                </Nav.Item>
-              </Nav>
-              <Tab.Content id="slideInUp">
-                <Tab.Pane eventKey="first">
-                  <Row>
-                    {
-                      team.slice(0,3).map((member, index) => {
-                        return (
-                          <ProjectCard
-                            key={index}
-                            {...member}
-                            />
-                        )
-                      })
-                    }
-                  </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey="second">
-                  <Row>
-                    {
-                      team.slice(3, 6).map((member, index) => {
-                        return (
-                          <ProjectCard
-                            key={index}
-                            {...member}
-                            />
-                        )
-                      })
-                    }
-                  </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  <Row>
-                    {
-                      team.slice(6, 9).map((member, index) => {
-                        return (
-                          <ProjectCard
-                            key={index}
-                            {...member}
-                            />
-                        )
-                      })
-                    }
-                  </Row>
-                </Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
-*/

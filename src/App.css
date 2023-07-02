@@ -95,7 +95,9 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 5%;
+    min-width: 30px;
+    margin: 5px 0;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -641,6 +643,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+}
+.foot-brand img {
+  width: 20%;
+  min-width: 40px;
+  margin: 20px auto;
 }
 .footer img {
   width: 26%;
