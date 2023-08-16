@@ -35,8 +35,8 @@ export const Footer = () => {
           <Col size={12} sm={6}></Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <p>
-              Website made by Abel Tadesse <br/>
-              Available on <a target="_blank" href="https://t.me/abiMtad">Telegram</a>, <a target="_blank" href="https://instagram.com/abiMtad">Instagram</a> and <a target="_blank" href="mailto:tadesseabel26@gmail.com">Gmail</a>
+              Website made by Hanizu <br/>
+              Available on <a target="_blank" href="https://t.me/hhanizu">Telegram</a>, <a target="_blank" href="https://instagram.com/anania4264">Instagram</a> and <a target="_blank" href="mailto:ananiatem@gmail.com">Gmail</a>
             </p>
             
           </Col>
